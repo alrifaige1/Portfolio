@@ -1,0 +1,12 @@
+.box {
+    display: grid;
+    /* width: 540px; */
+    grid-template-columns:1fr 1fr;
+    gap: 10px 2em;
+    justify-content: space-around;
+}
+  
+.box :first-child {
+    align-self: center;
+}
+ 

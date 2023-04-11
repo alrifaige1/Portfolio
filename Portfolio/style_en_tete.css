@@ -1,0 +1,89 @@
+body{
+    /* display: block; */
+    background-color:#99d6c8 !important;
+    /* padding:10px; */
+    font-family: 'Roboto', sans-serif; 
+    align-items: start;
+    justify-content: center;
+    /* overflow:scroll;     */
+}
+
+.navbar {
+	display: flex;
+	flex-direction: row;
+	background-color: #b8c0d2;
+	/* padding: 10px; */
+	align-items: center;
+	gap: 25px;
+	width: 100%;
+}
+
+.nav-main {
+	flex-grow: 1;
+	margin-left: 10rem !important;
+}
+.my_porfolio{
+	display: block;
+	font-weight: 400;
+    font-size: 2em;
+    color: #333333;
+	align-items: left;
+    justify-content: center;
+	margin-right: 2rem;
+}
+
+.nav-main ul,
+.nav-secondary ul {
+	display: flex;
+	list-style-type: none;
+	margin: 0;
+	padding-left: 0;
+}
+
+.nav-main ul {
+	gap: 10px;
+}
+
+.nav-main a {
+	color: white;
+	text-decoration: none;
+	padding: 10px 14px;
+}
+
+.nav-secondary ul {
+	align-items: center;
+	gap: 24px;
+}
+
+.logo{
+	width: 150px;
+	height: 70px;
+	border-radius: 50%;
+	margin-left: 5rem;
+}
+
+.capture{
+	width:150px;
+    border-radius: 50% !important;
+    /* margin-right: 28px; */
+    /* margin-right: 6px; */
+}
+/* display-1 text-uppercase text-white */
+div {
+	text-align: center;
+    justify-content: center;
+	display : flex;
+}
+
+.container{
+	color: #6c757d;
+	font-family: 'Roboto', sans-serif; 
+	/* column-count: 1; */
+	column-width: 100px;
+}
+
+.title_paragh {
+    color : white ;
+    line-height: 2;
+    margin-right: 20px;
+}

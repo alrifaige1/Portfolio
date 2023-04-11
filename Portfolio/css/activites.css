@@ -1,0 +1,35 @@
+.image-grid {
+  display: flex;
+  margin-top : 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container {
+  margin: 70px;
+  text-align: center;
+}
+
+.image-text {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.img {
+  border-radius: 0px !important;
+  width: 200px;
+  height: 350px;
+}
+
+.title {
+  text-align: center !important;
+  margin-top : 50px !important;
+}
+
+
